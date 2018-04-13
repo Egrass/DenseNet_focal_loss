@@ -1,0 +1,14 @@
+net: "/home/ccf_disk/91360/Feature_distinguish/DenseNet_caffe/prototxt/DenseNet_201.prototxt"
+test_iter: 500
+test_interval: 1000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+display: 20
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "/home/ccf_disk/91360/Feature_distinguish/DenseNet_caffe/model/caffe_DenseNet_201"
+solver_mode: GPU
